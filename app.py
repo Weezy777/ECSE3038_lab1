@@ -22,7 +22,7 @@ def potential_divider(voltage, resistors):
 print(potential_divider(9, [3000,1000]))
 
 
-## Temperature check function
+## Temperature check function:
 def temperature_check(temperature, unit):
     if unit == 'C':
         if temperature < 35:
@@ -41,4 +41,4 @@ def temperature_check(temperature, unit):
     else:
         print("Please enter 'C' for Celsius or 'F' for Fahrenheit.")
 
-print(temperature_check(85,"F"))
+print(temperature_check(65,"F"))
