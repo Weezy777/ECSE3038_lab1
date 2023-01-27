@@ -8,11 +8,10 @@ def parallel(resistances):
     return 1/total_resistance
 
 arr = [330, 1000, 2200]
-parallel(arr)
 print(parallel(arr))
 
  
-## Potential divider function 
+## Potential divider function below:
 def potential_divider(voltage, resistors):
     voltage_drop = []
     total_resistance = sum(resistors)
